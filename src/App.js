@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import Contact from './pages/contact/Contact.jsx';
+// import Contact from './pages/contact/Contact.jsx';
 
 import './App.css';
 
@@ -52,7 +52,7 @@ class App extends React.Component {
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
-          <Route exact path='/contact' component={Contact} />
+          {/* <Route exact path='/contact' component={Contact} /> */}
           <Route
             exact
             path='/signin'
