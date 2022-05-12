@@ -4,4 +4,44 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  @media (max-width: 920px) {
+    .directory-menu  {
+      
+      width: 100%;
+      flex-wrap: wrap;
+     }
+  }
+
+  @media (max-width: 920px) {
+    .directory-menu  {
+      
+      flex-direction: column;
+      border-radius: 20px;
+     }
+  }
+  
+  @media (max-width: 735px) {
+    .directory-menu  {
+      width: 20rem;
+      flex-direction: column;
+      border-radius: 20px;
+     }
+  }
+  
+  @media (max-width: 535px) {
+    .directory-menu  {
+      width: 20rem;
+      flex-direction: column;
+      border-radius: 20px;
+     }
+  }
+
+  @media (max-width: 390px) {
+    .directory-menu  {
+     width: 20rem;
+     flex-direction: column;
+     border-radius: 20px;
+    }
+  }
   
